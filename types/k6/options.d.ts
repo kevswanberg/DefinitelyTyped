@@ -4,6 +4,7 @@
  */
 
 import { CipherSuite } from './http';
+import { Scenario } from './scenario';
 
 /**
  * Program options.
@@ -123,6 +124,8 @@ export interface Options {
 
     /** Maximum VUs. Preallocates VUs to enable faster scaling. */
     vusMax?: number;
+
+    scenarios?: Record<string, Scenario>;
 }
 
 /**

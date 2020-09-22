@@ -43,3 +43,7 @@ const scenarioExample: Options = {
         }
     }
 };
+
+const optionsWithScenarios = {
+    scenarios: {}
+};
